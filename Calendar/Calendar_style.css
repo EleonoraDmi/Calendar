@@ -1,0 +1,459 @@
+h1 {
+    text-align: center;
+}
+.cell {
+    width: 30px;
+    max-height: 45px;
+    background: lightgray;
+    padding-top: 15px;
+    text-align: center;
+    }
+.cella {
+    width: 30px;
+    max-height: 45px;
+    padding-top: 15px;
+    text-align: center;
+    }
+.cellab {
+    width: 30px;
+    max-height: 45px;
+    padding-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    }
+.cellr {
+    width: 30px;
+    max-height: 45px;
+    padding-top: 15px;
+    text-align: center;
+    background: lightgray;
+    border: 2px solid red;
+        }
+.ContainerTrimestru {
+    display: flex;
+    justify-content: center;
+ }
+.ContainerIulie {
+    height: 380px;
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    'Iul Iul Iul Iul Iul Iul Iul'
+    'L M Mr J V S D'
+    'd1 d2 d3 d4 d5 d6 d7'
+    'd8 d9 d10 d11 d12 d13 d14'
+    'd15 d16 d17 d18 d19 d20 d21'
+    'd22 d23 d24 d25 d26 d27 d28'
+    'd29 d30 d31 da1 da2 da3 da4'
+}
+.Iulie {
+    background: black;
+    color:lightgray;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+    grid-area: Iul;
+}
+.L {
+    grid-area: L;
+}
+.M {
+    grid-area: M;
+}
+.Mr {
+    grid-area: Mr;
+}
+.J {
+    grid-area: J;
+}
+.V {
+    grid-area: V;
+}
+.S {
+    grid-area: S;
+}
+.D {
+    grid-area: D;
+}
+.d1 {
+    grid-area: d1;
+}
+.d2 {
+    grid-area: d2;
+}
+.d3 {
+    grid-area: d3;
+}
+.d4 {
+    grid-area: d4;
+}
+.d5 {
+    grid-area: d5;
+}
+.d6 {
+    grid-area: d6;
+}
+.d7 {
+    grid-area: d7;
+}
+.d8 {
+    grid-area: d8;
+}
+.d9 {
+    grid-area: d9;
+}
+.d10 {
+    grid-area: d10;
+}
+.d11 {
+    grid-area: d11;
+}
+.d12 {
+    grid-area: d12;
+}
+.d13 {
+    grid-area: d13;
+}
+.d14 {
+    grid-area: d14;
+}
+.d15 {
+    grid-area: d15;
+}
+.d16 {
+    grid-area: d16;
+}
+.d17 {
+    grid-area: d17;
+}
+.d18 {
+    grid-area: d18;
+}
+.d19 {
+    grid-area: d19;
+}
+.d20 {
+    grid-area: d20;
+}
+.d21 {
+    grid-area: d21;
+}
+.d22 {
+    grid-area: d22;
+}
+.d23 {
+    grid-area: d23;
+}
+.d24 {
+    grid-area: d24;
+}
+.d25 {
+    grid-area: d25;
+}
+.d26 {
+    grid-area: d26;
+}
+.d27 {
+    grid-area: d27;
+}
+.d28 {
+    grid-area: d28;
+}
+.d29 {
+    grid-area: d29;
+}
+.d30 {
+    grid-area: d30;
+}
+.d31 {
+    grid-area: d31;
+}
+.da1 {
+    grid-area: da1;
+}
+.da2 {
+    grid-area: da2;
+}
+.da3 {
+    grid-area: da3;
+}
+.da4 {
+    grid-area: da4;
+}
+.ContainerAugust {
+    height: 380px;
+    display: grid;
+    gap: 10px;
+    padding: 0 45px;
+    grid-template-areas:
+    'Aug Aug Aug Aug Aug Aug Aug'
+    'L M Mr J V S D'
+    'da29 da30 da31 d1 d2 d3 d4'
+    'd5 d6 d7 d8 d9 d10 d11'
+    'd12 d13 d14 d15 d16 d17 d18'
+    'd19 d20 d21 d22 d23 d24 d25'
+    'd26 d27 d28 d29 d30 d31 ds1';
+}
+
+.August {
+    background: black;
+    color: lightgray;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+    grid-area: Aug;
+}
+.da29 {
+    grid-area: da29;
+}
+.da30 {
+    grid-area: da30;
+}
+.da31 {
+    grid-area: da31;
+}
+.d1 {
+    grid-area: d1;
+}
+.d2 {
+    grid-area: d2;
+}
+.d3 {
+    grid-area: d3;
+}
+.d4 {
+    grid-area: d4;
+}
+.d5 {
+    grid-area: d5;
+}
+.d6 {
+    grid-area: d6;
+}
+.d7 {
+    grid-area: d7;
+}
+.d8 {
+    grid-area: d8;
+}
+.d9 {
+    grid-area: d9;
+}
+.d10 {
+    grid-area: d10;
+}
+.d11 {
+    grid-area: d11;
+}
+.d12 {
+    grid-area: d12;
+}
+.d13 {
+    grid-area: d13;
+}
+.d14 {
+    grid-area: d14;
+}
+.d15 {
+    grid-area: d15;
+}
+.d16 {
+    grid-area: d16;
+}
+.d17 {
+    grid-area: d17;
+}
+.d18 {
+    grid-area: d18;
+}
+.d19 {
+    grid-area: d19;
+}
+.d20 {
+    grid-area: d20;
+}
+.d21 {
+    grid-area: d21;
+}
+.d22 {
+    grid-area: d22;
+}
+.d23 {
+    grid-area: d23;
+}
+.d24 {
+    grid-area: d24;
+}
+.d25 {
+    grid-area: d25;
+}
+.d26 {
+    grid-area: d26;
+}
+.d27 {
+    grid-area: d27;
+}
+.d28 {
+    grid-area: d28;
+}
+.d29 {
+    grid-area: d29;
+}
+.d30 {
+    grid-area: d30;
+}
+.d31 {
+    grid-area: d31;
+}
+.ds1 {
+    grid-area: ds1;
+}
+.ContainerSeptembrie {
+    height: 434px;
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    'Sept Sept Sept Sept Sept Sept Sept'
+    'L M Mr J V S D'
+    'da26 da27 da28 da29 da30 da31 d1'
+    'd2 d3 d4 d5 d6 d7 d8'
+    'd9 d10 d11 d12 d13 d14 d15'
+    'd16 d17 d18 d19 d20 d21 d22'
+    'd23 d24 d25 d26 d27 d28 d29'
+    'd30 ds1 ds2 ds3 ds4 ds5 ds6';
+}
+
+.Septembrie {
+    background: black;
+    color: lightgray;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+    grid-area: Sept;
+}
+.da26 {
+    grid-area: da26;
+}
+.da27 {
+    grid-area: da27;
+}
+.da28 {
+    grid-area: da28;
+}
+.da29 {
+    grid-area: da29;
+}
+.da30 {
+    grid-area: da30;
+}
+.da31 {
+    grid-area: da31;
+}
+.d1 {
+    grid-area: d1;
+}
+.d2 {
+    grid-area: d2;
+}
+.d3 {
+    grid-area: d3;
+}
+.d4 {
+    grid-area: d4;
+}
+.d5 {
+    grid-area: d5;
+}
+.d6 {
+    grid-area: d6;
+}
+.d7 {
+    grid-area: d7;
+}
+.d8 {
+    grid-area: d8;
+}
+.d9 {
+    grid-area: d9;
+}
+.d10 {
+    grid-area: d10;
+}
+.d11 {
+    grid-area: d11;
+}
+.d12 {
+    grid-area: d12;
+}
+.d13 {
+    grid-area: d13;
+}
+.d14 {
+    grid-area: d14;
+}
+.d15 {
+    grid-area: d15;
+}
+.d16 {
+    grid-area: d16;
+}
+.d17 {
+    grid-area: d17;
+}
+.d18 {
+    grid-area: d18;
+}
+.d19 {
+    grid-area: d19;
+}
+.d20 {
+    grid-area: d20;
+}
+.d21 {
+    grid-area: d21;
+}
+.d22 {
+    grid-area: d22;
+}
+.d23 {
+    grid-area: d23;
+}
+.d24 {
+    grid-area: d24;
+}
+.d25 {
+    grid-area: d25;
+}
+.d26 {
+    grid-area: d26;
+}
+.d27 {
+    grid-area: d27;
+}
+.d28 {
+    grid-area: d28;
+}
+.d29 {
+    grid-area: d29;
+}
+.d30 {
+    grid-area: d30;
+}
+.ds1 {
+    grid-area: ds1;
+}
+.ds2 {
+    grid-area: ds2;
+}
+.ds3 {
+    grid-area: ds3;
+}
+.ds4 {
+    grid-area: ds4;
+}
+.ds5 {
+    grid-area: ds5;
+}
+.ds6 {
+    grid-area: ds6;
+}
